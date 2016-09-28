@@ -11085,7 +11085,7 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
   SirTrevor.Blocks = {};
   SirTrevor.Formatters = {};
   SirTrevor.instances = [];
-  SirTrevor.Events = Eventable;
+  SirTrevor.Events = root.Eventable;
 
   var formBound = false; // Flag to tell us once we've bound our submit event
 
