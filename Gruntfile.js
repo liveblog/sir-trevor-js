@@ -40,7 +40,10 @@ module.exports = function(grunt) {
           banner: banner
         },
         files: {
-          'sir-trevor.js': ['src/sir-trevor.js']
+          'sir-trevor.js': ['components/jquery/jquery.js',
+                            'components/underscore/underscore.js',
+                            'components/Eventable/eventable.js',
+                            'src/sir-trevor.js']
         }
       }
     },
